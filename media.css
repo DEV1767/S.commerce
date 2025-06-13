@@ -1,0 +1,44 @@
+@media screen and (max-width:1024px) {
+    #d3{
+        display:none;
+    }
+    #d2{
+        display: flex;
+    }
+}
+@media screen and (max-width:820px){
+    .nav-con{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    #d2{
+        display:flex;
+    }
+    #d3{
+        display: none;
+    }
+    .data2{
+        display: none;
+    }
+    #d3{
+        display: flex;
+    }
+
+}
+@media screen and (max-width:420px){
+
+    .data2{
+        display: none;
+    }
+    #d3{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 10px;
+    }
+    .data{
+        font-size: 40px;
+    }
+}
