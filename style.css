@@ -1,0 +1,388 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F5f8ff ;
+    font-family: 'Roboto', sans-serif;
+    color: #1a1a1a;
+}
+.nav-con{
+    height:100px ;
+    width: 100%;
+    overflow-x: hidden;
+    display: flex;
+   justify-content:space-evenly;
+    align-items: center;
+    font-size: 20px;
+    color: black;
+    background-color: #4B2E83 ;
+    color: #FFFFFF ;
+    padding: 10px;
+}
+.data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bolder;
+    padding: 5px;
+}
+.data2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+}
+#d3 {
+    display:none;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+ #d2{
+    font-weight:bold;
+    cursor: pointer;
+ }
+ .section2{
+    height: auto;
+    width: 100%;;
+    overflow-x: hidden;
+    display:flex;
+    margin-top: 20px;
+ }
+ /*.right1{
+    height: auto;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 20px;
+          <p>🎯 100% Board Result Success (2006–2024)</p>
+
+      <p>🧑‍🏫 20+ Years of Teaching Experience</p>
+
+      <p>📚 Expert Coaching for XI, XII & B.Com</p>
+
+      <p>📈 Ranked Toppers Every Year</p>
+
+      <p>📲 App-based Learning with Video Courses</p>
+
+      <p>🕒 Regular Tests & Doubt Sessions</p>
+
+      <p>🏆 Top Results in Bihar Board Every Year</p>
+
+      <p>👨‍👩‍👦 Individual Focus – Limited Batch Strength</p>
+
+      <p>🏫 Trusted by Thousands of Parents & Students</p>
+
+      <p>📍 Located at College Road, Supaul Bazar, Bir</p>
+}*/
+.right1{
+    display: flex;
+    justify-content:center;
+    align-items:flex-start;
+    flex-direction: column;
+    height: auto;
+    width: 70%;
+    font-size: 25px;
+    padding:25px;
+}
+.right1 p{
+    margin-left: 20px;
+}
+.left1{
+    height:600px;
+    width: 50%;
+}
+.left{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height:auto;
+    width: 40%;
+    padding: 25px;
+}
+.img{
+    height: 350px;
+    width: 350px;
+    border: 10px solid #4B2E83;
+    border-radius: 100%;
+    background-color: black;
+    background-image: url("Assest/img/s.com.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 80px;
+}
+#fee{
+    height: 60px;
+    width: 150px;
+    border-radius: 20px;
+    background-color:#4B2E83;
+    color: white;
+    font-weight: bold;
+}
+#apply{
+    height: 60px;
+    width: 150px;
+    border-radius: 20px;
+     background-color:#4B2E83;
+    color: white;
+    font-weight: bold;
+}
+.bt{
+    margin-top: 40px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+              /*SECTION-2*/
+.pass{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 60px;
+}
+.section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:auto;
+    width: auto;
+    overflow-x:hidden;
+    margin-top: 20px;
+ 
+}              
+ .container1{
+    height:auto;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    border: 5px solid black;
+    gap: 20px;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+.box1,
+.box2,
+.box3,
+.box4{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.box1 span,
+.box2 span,
+.box3 span,
+.box4 span{
+   font-size: 16px;
+   font-weight: bold;
+   color: #1a1a1a;
+}
+.y2006,
+.y2007,
+.y2008,
+.y2009,
+.y2010,
+.y2011,
+.y2012,
+.y2013,
+.y2014,
+.y2015,
+.y2016,
+.y2017,
+.y2018,
+.y2019,
+.y2010,
+.y2021,
+.y2020,
+.y2022,
+.y2023,
+.y2024
+{
+    background-color: #e0e0e0;
+    height: 15px;
+    width: 300px;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+.s1{
+ height:100%;
+  width:52%;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  border-radius: 10px;
+}
+.s2{
+   height:100%;
+  width:53%;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  border-radius: 10px;
+}
+.s3{
+   height:100%;
+  width:50%;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  border-radius: 10px;
+}
+.s4{
+ height:100%;
+  width:48%;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  border-radius: 10px;
+}
+.s5{
+  height:100%;
+  width:45%;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  border-radius: 10px;
+}
+.s6{
+   height:100%;
+  width:54%;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  border-radius: 10px;
+}
+.s7{
+ height:100%;
+  width:55%;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  border-radius: 10px;
+}
+.s8{
+  height:100%;
+  width:60%;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  border-radius: 10px;
+}
+.s9{
+   height:100%;
+  width:82%;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  border-radius: 10px;
+}
+.s10{
+  height:100%;
+  width:84%;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  border-radius: 10px;
+}
+.s11{
+   height:100%;
+  width:60%;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  border-radius: 10px;
+}
+.s12{
+ height:100%;
+  width:45%;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  border-radius: 10px;
+}
+.s13{
+   height:100%;
+  width:75%;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  border-radius: 10px;
+}
+.s14{
+   height:100%;
+  width:89%;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  border-radius: 10px;
+}
+.s15{
+  height:100%;
+  width:91%;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  border-radius: 10px;
+}
+.s16{
+   height:100%;
+  width:85%;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  border-radius: 10px;
+}
+.s17{
+ height:100%;
+  width:90%;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  border-radius: 10px;
+}
+.s18{
+  height:100%;
+  width:89%;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  border-radius: 10px;
+}
+.s19{
+  height:100%;
+  width:90%;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  border-radius: 10px;
+}
+.section4{
+    height:auto;
+    width: 90%;
+    overflow-x: hidden;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+
+    
+}
+.container2{
+    height:auto;
+    width: 740px;
+    border: 2px solid black;
+    padding:25px;
+    border-radius: 35px;
+    background-color: #FFFFFF;
+    color: #1a1a1a;
+    z-index: 10;
+    position: relative;
+    box-shadow: 0 10px 20px rgb(0,0,0,0.1);
+}
+.container2 h2{
+    color: #4B2E83;
+    font-size: 20px
+}
+.container3{
+    height: 400px;
+    width: 400px;
+   padding: 15px;
+}
+.about-left {
+    font-size: 15px;
+}
+.about-right{
+    height: 300px;
+    width: 300px;
+    background-image:url("Assest/img/papa.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    margin: auto;
+    border: 10px solid #4B2E83;
+}
+.name{
+     padding: 10px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     font-size: 20px;
+     font-weight: bolder;
+}
